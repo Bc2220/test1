@@ -71,7 +71,7 @@ def D1():
 
 
     #get number
-    number = 30
+    number = 10
 
 
     #move through list
@@ -88,8 +88,7 @@ def D1():
 
     page = requests.get(f'{article[number]}')
     soup = BeautifulSoup(page.text, 'html.parser')
-    #text = (soup.p)
-    text = (soup)
+    text = (soup.p)
 
     
     return render_template("d1.html", text = text)
