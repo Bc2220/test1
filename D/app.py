@@ -26,7 +26,7 @@ def index():
         imglist.append(link_src)
 
     #picture = imglist[1]
-    picture = ("https://www.osirisnet.net/dieux/re/photo/re_titre.jpg")
+    picture = ("https://truthignitedministry.files.wordpress.com/2019/01/SunGodWordpress.png?w=920&h=344&crop=1")
     
     ########################################
     #Set up list
