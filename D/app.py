@@ -88,7 +88,8 @@ def D1():
 
     page = requests.get(f'{article[number]}')
     soup = BeautifulSoup(page.text, 'html.parser')
-    text = (soup.p)
+    #text = (soup.p)
+    text = (soup)
 
     
     return render_template("d1.html", text = text)
