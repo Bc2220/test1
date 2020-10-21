@@ -25,7 +25,8 @@ def index():
         link_src = img.get('src')
         imglist.append(link_src)
 
-    picture = imglist[0]
+    #picture = imglist[1]
+    picture = https://www.ancient-origins.net/sites/default/files/field/image/Solar-Gods---legends-of-the-sun.jpg
     
     ########################################
     #Set up list
