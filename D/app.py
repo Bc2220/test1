@@ -51,7 +51,7 @@ def index():
 
     page = requests.get(f'{article[number]}')
     soup = BeautifulSoup(page.text, 'html.parser')
-    text = (soup.get_text())
+    text = (soup.p) 
 
     
     return render_template("index.html", text = text, picture = picture)
