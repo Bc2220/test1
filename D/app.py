@@ -26,7 +26,7 @@ def index():
         imglist.append(link_src)
 
     #picture = imglist[1]
-    picture = https://www.osirisnet.net/dieux/re/photo/re_titre.jpg
+    picture = ("https://www.osirisnet.net/dieux/re/photo/re_titre.jpg")
     
     ########################################
     #Set up list
